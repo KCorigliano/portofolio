@@ -1,0 +1,133 @@
+@import '@/assets/app.scss';
+
+body,
+#app{
+    background-color: #293133;
+    max-height: 100vh;
+    max-width: 100%;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.title{
+    color: #d6cecc;
+    font-size: 55px;
+}
+
+.title-2{
+    color: #d6cecc;
+}
+
+.sub-title{
+    color: brown;
+    font-size: 25px;
+}
+
+.description{
+    color: #d6cecc;
+    line-height: 25px;
+}
+
+.link{
+    color: #d6cecc;
+    font-size: 25px;
+    margin: 0 25px;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.5s;
+    font-weight: bold;
+
+    &:hover{
+        background-color: #d6cecc;
+        color: #293133;
+        border-radius: 15px;
+        transition: all 0.5s;
+    }
+}
+
+.link-xs{
+    color: #d6cecc;
+    font-size: 25px;
+    margin: 0 25px;
+    text-decoration: none;
+    // padding: 5px 10px;
+}
+
+.active{
+    background-color: #d6cecc;
+    color: #293133;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.header{
+    margin: 0 auto;
+}
+
+.flex-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+// .main{
+//     display: flex;
+//     align-content: center;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+// }
+
+.aw-icon{
+    font-size: 55px;
+    color: #d6cecc;
+}
+
+.selected{
+    // margin-bottom: 5px;
+    // padding: 0 5px 5px;
+    // border-bottom: 5px solid brown;
+    // transition: all 0.3s;
+}
+
+.flag{
+    cursor: pointer;
+}
+
+#nav{
+    height: 50px;
+}
+
+.home,
+.about{
+    margin-top: 50px;
+}
+
+.img-thumb{
+    z-index: -1000;
+}
+
+.nav-icon{
+    .aw-icon{
+        color: #d6cecc;
+        font-size: 35px;
+    }
+}
+
+.foto{
+    border-radius: 50%;
+    border: 2px solid brown;
+    border-top: none;
+    border-left: none;
+}
+
+.top-45{
+    top: 40%;
+}
+
+.start-60{
+    left: 50%;
+}
